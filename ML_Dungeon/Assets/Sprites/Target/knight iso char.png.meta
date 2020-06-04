@@ -1,0 +1,1358 @@
+fileFormatVersion: 2
+guid: 32eb331a687ddcb458b0447f28b49f7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4437071881994959361
+    second: knight iso char_0
+  - first:
+      213: -4925969714678911907
+    second: knight iso char_1
+  - first:
+      213: 5303643846532001539
+    second: knight iso char_2
+  - first:
+      213: 7806182272274437663
+    second: knight iso char_3
+  - first:
+      213: -5382206908656504108
+    second: knight iso char_4
+  - first:
+      213: -7613005435527052860
+    second: knight iso char_5
+  - first:
+      213: -3067645291965036042
+    second: knight iso char_6
+  - first:
+      213: 7791297630827388200
+    second: knight iso char_7
+  - first:
+      213: 1583981070946766605
+    second: knight iso char_8
+  - first:
+      213: -1287872230881312459
+    second: knight iso char_9
+  - first:
+      213: -506773799869877224
+    second: knight iso char_10
+  - first:
+      213: -6448462687513506896
+    second: knight iso char_11
+  - first:
+      213: 5917111077666652026
+    second: knight iso char_12
+  - first:
+      213: -5747049275537388086
+    second: knight iso char_13
+  - first:
+      213: 3010258178088231284
+    second: knight iso char_14
+  - first:
+      213: -7955354168521106552
+    second: knight iso char_15
+  - first:
+      213: -8942291075325763553
+    second: knight iso char_16
+  - first:
+      213: -2416868336525821661
+    second: knight iso char_17
+  - first:
+      213: -279932718312071024
+    second: knight iso char_18
+  - first:
+      213: -2183885405667234357
+    second: knight iso char_19
+  - first:
+      213: -2686743838241455507
+    second: knight iso char_20
+  - first:
+      213: -945523123158869248
+    second: knight iso char_21
+  - first:
+      213: 5174498821980689861
+    second: knight iso char_22
+  - first:
+      213: -8375667399758866701
+    second: knight iso char_23
+  - first:
+      213: -2905320976025444623
+    second: knight iso char_24
+  - first:
+      213: -9149377109942846611
+    second: knight iso char_25
+  - first:
+      213: -5258309579313820801
+    second: knight iso char_26
+  - first:
+      213: 1759411679467984853
+    second: knight iso char_27
+  - first:
+      213: -6494140404292777793
+    second: knight iso char_28
+  - first:
+      213: 642533730055142838
+    second: knight iso char_29
+  - first:
+      213: 5300698792022960033
+    second: knight iso char_30
+  - first:
+      213: -7898644507897402671
+    second: knight iso char_31
+  - first:
+      213: -1386507094573195571
+    second: knight iso char_32
+  - first:
+      213: -7620290069001200585
+    second: knight iso char_33
+  - first:
+      213: -5623851869961747901
+    second: knight iso char_34
+  - first:
+      213: -8042754611445815119
+    second: knight iso char_35
+  - first:
+      213: -5535416146643541403
+    second: knight iso char_36
+  - first:
+      213: -5099988247661734785
+    second: knight iso char_37
+  - first:
+      213: -4771101336922792464
+    second: knight iso char_38
+  - first:
+      213: -1092428817030079529
+    second: knight iso char_39
+  - first:
+      213: 3480368879122461823
+    second: knight iso char_40
+  - first:
+      213: -5078826848120653933
+    second: knight iso char_41
+  - first:
+      213: 4379706005868836919
+    second: knight iso char_42
+  - first:
+      213: 2199074188458979005
+    second: knight iso char_43
+  - first:
+      213: 5477394960274221963
+    second: knight iso char_44
+  - first:
+      213: -4774940856220914074
+    second: knight iso char_45
+  - first:
+      213: 8879633211392444056
+    second: knight iso char_46
+  - first:
+      213: -8313017704035662030
+    second: knight iso char_47
+  - first:
+      213: -5903757344198969350
+    second: knight iso char_48
+  - first:
+      213: -6606480897820959783
+    second: knight iso char_49
+  - first:
+      213: -5391492661584769653
+    second: knight iso char_50
+  - first:
+      213: -1439262121722053720
+    second: knight iso char_51
+  - first:
+      213: 3692288185495650812
+    second: knight iso char_52
+  - first:
+      213: -6310042222223365726
+    second: knight iso char_53
+  - first:
+      213: 8532298293827947378
+    second: knight iso char_54
+  - first:
+      213: -1885572226605753913
+    second: knight iso char_55
+  - first:
+      213: 5160494648909693559
+    second: knight iso char_56
+  - first:
+      213: -8481163843418239259
+    second: knight iso char_57
+  - first:
+      213: -6425595368037927633
+    second: knight iso char_58
+  - first:
+      213: 7128136233938296341
+    second: knight iso char_59
+  - first:
+      213: 5278398087496834630
+    second: knight iso char_60
+  - first:
+      213: -2815260074252980326
+    second: knight iso char_61
+  - first:
+      213: -691279184754239507
+    second: knight iso char_62
+  - first:
+      213: 3247966635843747290
+    second: knight iso char_63
+  - first:
+      213: -1352739769942820807
+    second: knight iso char_64
+  - first:
+      213: -6658136397439291459
+    second: knight iso char_65
+  - first:
+      213: 4934793915813496091
+    second: knight iso char_66
+  - first:
+      213: 625211237384064206
+    second: knight iso char_67
+  - first:
+      213: 1830152818715350681
+    second: knight iso char_68
+  - first:
+      213: -4982698678945656737
+    second: knight iso char_69
+  - first:
+      213: -644349009921507338
+    second: knight iso char_70
+  - first:
+      213: -3187711992155725235
+    second: knight iso char_71
+  - first:
+      213: -6964782401577321799
+    second: knight iso char_72
+  - first:
+      213: -6566963230496597024
+    second: knight iso char_73
+  - first:
+      213: 2483590289774231303
+    second: knight iso char_74
+  - first:
+      213: 2119316054800582265
+    second: knight iso char_75
+  - first:
+      213: -789096154030904401
+    second: knight iso char_76
+  - first:
+      213: 6946147102890192471
+    second: knight iso char_77
+  - first:
+      213: 7911409934811870619
+    second: knight iso char_78
+  - first:
+      213: -217609574050119320
+    second: knight iso char_79
+  - first:
+      213: -8890356215334702739
+    second: knight iso char_80
+  - first:
+      213: 6050985863646770858
+    second: knight iso char_81
+  - first:
+      213: 4528946421751260971
+    second: knight iso char_82
+  - first:
+      213: -7573850325262348037
+    second: knight iso char_83
+  - first:
+      213: -990999029249829850
+    second: knight iso char_84
+  - first:
+      213: -1609358111908485959
+    second: knight iso char_85
+  - first:
+      213: 4551071615171269094
+    second: knight iso char_86
+  - first:
+      213: -1944505580867814137
+    second: knight iso char_87
+  - first:
+      213: 8154579968160830974
+    second: knight iso char_88
+  - first:
+      213: -2674133088521136991
+    second: knight iso char_89
+  - first:
+      213: 2550487215077585787
+    second: knight iso char_90
+  - first:
+      213: -5087873590805680153
+    second: knight iso char_91
+  - first:
+      213: 2553098809423918577
+    second: knight iso char_92
+  - first:
+      213: 6214712825074705576
+    second: knight iso char_93
+  - first:
+      213: -4222623256119447766
+    second: knight iso char_94
+  - first:
+      213: -5482663815136896898
+    second: knight iso char_95
+  - first:
+      213: -2740270555834362634
+    second: knight iso char_96
+  - first:
+      213: -3384231146404471046
+    second: knight iso char_97
+  - first:
+      213: 2478543913715112204
+    second: knight iso char_98
+  - first:
+      213: 9002027958307031816
+    second: knight iso char_99
+  - first:
+      213: -218574621280718888
+    second: knight iso char_100
+  - first:
+      213: -8052296998153184532
+    second: knight iso char_101
+  - first:
+      213: 1285770582430399464
+    second: knight iso char_102
+  - first:
+      213: 7227043849700915867
+    second: knight iso char_103
+  - first:
+      213: -3008412471132576756
+    second: knight iso char_104
+  - first:
+      213: -1263084021993360660
+    second: knight iso char_105
+  - first:
+      213: -5723303439584876461
+    second: knight iso char_106
+  - first:
+      213: -5430813833836607512
+    second: knight iso char_107
+  - first:
+      213: -6813908743090444989
+    second: knight iso char_108
+  - first:
+      213: -7515837056683759293
+    second: knight iso char_109
+  - first:
+      213: 706415280194407513
+    second: knight iso char_110
+  - first:
+      213: -5625318064252208861
+    second: knight iso char_111
+  - first:
+      213: -1368743721527215754
+    second: knight iso char_112
+  - first:
+      213: -3529316117613974144
+    second: knight iso char_113
+  - first:
+      213: -5454641782335546308
+    second: knight iso char_114
+  - first:
+      213: -7990645730546873694
+    second: knight iso char_115
+  - first:
+      213: 3654397880895186290
+    second: knight iso char_116
+  - first:
+      213: -3582294422001214218
+    second: knight iso char_117
+  - first:
+      213: -182757897088011172
+    second: knight iso char_118
+  - first:
+      213: -1796636548797013596
+    second: knight iso char_119
+  - first:
+      213: -5998089152905395739
+    second: knight iso char_120
+  - first:
+      213: -4655103309876367329
+    second: knight iso char_121
+  - first:
+      213: 409521092264908617
+    second: knight iso char_122
+  - first:
+      213: -2329795269772061915
+    second: knight iso char_123
+  - first:
+      213: -473252406302758291
+    second: knight iso char_124
+  - first:
+      213: 364823425393508306
+    second: knight iso char_125
+  - first:
+      213: 7467073050340287921
+    second: knight iso char_126
+  - first:
+      213: 3891752486065741611
+    second: knight iso char_127
+  - first:
+      213: -4743068300931845925
+    second: knight iso char_128
+  - first:
+      213: -8144727171359413971
+    second: knight iso char_129
+  - first:
+      213: -8213048991884034309
+    second: knight iso char_130
+  - first:
+      213: -6006568176956317832
+    second: knight iso char_131
+  - first:
+      213: -546252898649243625
+    second: knight iso char_132
+  - first:
+      213: 6737759789103093480
+    second: knight iso char_133
+  - first:
+      213: 6606558397776952341
+    second: knight iso char_134
+  - first:
+      213: 5266476328464555341
+    second: knight iso char_135
+  - first:
+      213: 4949317342747991481
+    second: knight iso char_136
+  - first:
+      213: -659280712889251524
+    second: knight iso char_137
+  - first:
+      213: 4477502973956308987
+    second: knight iso char_138
+  - first:
+      213: 2072477050936022001
+    second: knight iso char_139
+  - first:
+      213: 6439318831331955743
+    second: knight iso char_140
+  - first:
+      213: -1953575811063728161
+    second: knight iso char_141
+  - first:
+      213: 3053614002509809093
+    second: knight iso char_142
+  - first:
+      213: -3219404118297215176
+    second: knight iso char_143
+  - first:
+      213: 4021127543376478834
+    second: knight iso char_144
+  - first:
+      213: -4297528673332433196
+    second: knight iso char_145
+  - first:
+      213: -7798878920792969578
+    second: knight iso char_146
+  - first:
+      213: 5891165411345060526
+    second: knight iso char_147
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 42
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knight iso char_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff501d6c1aa5c62c0800000000000000
+      internalID: -4437071881994959361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c2b36b4a073abb0800000000000000
+      internalID: -4925969714678911907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fe9bf7af35a9940800000000000000
+      internalID: 5303643846532001539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f169edeea61255c60800000000000000
+      internalID: 7806182272274437663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d230ed255f8e45b0800000000000000
+      internalID: -5382206908656504108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ca4e44eb295690800000000000000
+      internalID: -7613005435527052860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9468b2cd88d65d0800000000000000
+      internalID: -3067645291965036042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 336
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1fc84aef302c60800000000000000
+      internalID: 7791297630827388200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f89b8446e6bf510800000000000000
+      internalID: 1583981070946766605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531ca3a870f802ee0800000000000000
+      internalID: -1287872230881312459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814f74df9e397f8f0800000000000000
+      internalID: -506773799869877224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb8563e9557286a0800000000000000
+      internalID: -6448462687513506896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f79d8cc2dcd1250800000000000000
+      internalID: 5917111077666652026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd8de012216e30b0800000000000000
+      internalID: -5747049275537388086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471e92b2dd596c920800000000000000
+      internalID: 3010258178088231284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 252
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b50e27887e89190800000000000000
+      internalID: -7955354168521106552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10ef0135a996e380800000000000000
+      internalID: -8942291075325763553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3293d749d0f857ed0800000000000000
+      internalID: -2416868336525821661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090eff30daa7d1cf0800000000000000
+      internalID: -279932718312071024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd6b055bc741b1e0800000000000000
+      internalID: -2183885405667234357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62062fc6b4c6bad0800000000000000
+      internalID: -2686743838241455507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_21
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b9235aab3d0e2f0800000000000000
+      internalID: -945523123158869248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c516de43438fc740800000000000000
+      internalID: 5174498821980689861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f69d8840e6a3cb80800000000000000
+      internalID: -8375667399758866701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe138127f93ea7d0800000000000000
+      internalID: -2905320976025444623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b34c57ef1e60180800000000000000
+      internalID: -9149377109942846611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_26
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b47fd1c4bb607b0800000000000000
+      internalID: -5258309579313820801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7dc58c99faa6810800000000000000
+      internalID: 1759411679467984853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb80e90b5bd20e5a0800000000000000
+      internalID: -6494140404292777793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdb420f50dbae800800000000000000
+      internalID: 642533730055142838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7eedf877ddf8940800000000000000
+      internalID: 5300698792022960033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_31
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 84
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6fab3ba0626290800000000000000
+      internalID: -7898644507897402671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dced76db42322cce0800000000000000
+      internalID: -1386507094573195571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_33
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c1fb76e8a4f3690800000000000000
+      internalID: -7620290069001200585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342838d458014f1b0800000000000000
+      internalID: -5623851869961747901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_35
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b823211b45626090800000000000000
+      internalID: -8042754611445815119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562a95fa7504e23b0800000000000000
+      internalID: -5535416146643541403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight iso char_37
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74947ba5b33939b0800000000000000
+      internalID: -5099988247661734785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

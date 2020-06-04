@@ -10,4 +10,4 @@ Este programa utiliza el paquete ml-agents provisionado por Unity. Información 
 
 - Paquete ml-agents entrega 2 ó reciente
 
-Para una explicación detallada del funcionamiento de este proyecto, entre [aquí](TheJarmanitor/ML_Dungeon/Docs/README.md)
+Para una explicación detallada del funcionamiento de este proyecto, entre [aquí](/Docs/README.md)

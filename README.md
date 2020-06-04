@@ -9,3 +9,5 @@ Este programa utiliza el paquete ml-agents provisionado por Unity. Información 
 - Unity Versión 2019.3.15f1 ó reciente
 
 - Paquete ml-agents entrega 2 ó reciente
+
+Para una explicación detallada del funcionamiento de este proyecto, entre [aquí](TheJarmanitor/ML_Dungeon/Docs/README.md)

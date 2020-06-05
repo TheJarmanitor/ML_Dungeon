@@ -16,4 +16,4 @@ Este programa utiliza el paquete ml-agents provisionado por Unity. Información 
 
 ### Propietario y menciones
 
-Propietario: Oleg Jarma Montoya(ojarmam@unal.edu.co). Todos los assests usados fueron descargados de manera gratis en https://assetstore.unity.com e https://itch.io. Muchas de las técnicas utilizadas en este repositorio se usaron siguiendo el libro [Developing 2D Games with Unity: Independent Game Programming with C#](https://www.amazon.com/Developing-Games-Unity-Independent-Programming/dp/1484237714)
+Propietario: Oleg Jarma Montoya(ojarmam@unal.edu.co). Todos los assests usados fueron descargados de manera gratis en https://assetstore.unity.com e https://itch.io. Muchas de las técnicas utilizadas en este repositorio se lograron siguiendo el libro [Developing 2D Games with Unity: Independent Game Programming with C#](https://www.amazon.com/Developing-Games-Unity-Independent-Programming/dp/1484237714)

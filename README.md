@@ -10,6 +10,8 @@ Para una explicaci처n detallada del funcionamiento de este proyecto, entre [aqu�
 Este programa utiliza el paquete ml-agents provisionado por Unity. Informaci처n acerca de c처mo instalarlo se puede encontrar en el siguiente [repositorio](https://github.com/Unity-Technologies/ml-agents)
 
 ### Requerimientos de Software
+el proyecto se desarroll처 con las siguientes versiones
+
 - Unity Versi처n 2019.3.15f1 처 reciente
 
 - Paquete ml-agents entrega 2 처 reciente

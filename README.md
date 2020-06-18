@@ -12,7 +12,7 @@ Este programa utiliza el paquete ml-agents provisionado por Unity. Información 
 ### Requerimientos de Software
 el proyecto se desarrolló con las siguientes versiones
 
-- Unity Versión 2019.3.15f1 ó reciente
+- Unity Versión 2019.4.0f1 ó reciente
 
 - Paquete ml-agents entrega 2 ó reciente
 

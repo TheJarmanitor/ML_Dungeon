@@ -3,6 +3,7 @@
 La intención de este proyecto es el conseguir un entendimiento de tanto el Software de desarrollo de videojuegos "Unity" y de su paquete de Agentes de aprendizaje automátizado "ML Agents", el cuál es potenciado por Python y Tensorflow. Esto con el fín de expandir este uso a productos tanto como en el campo de los videojuegos, como la simulación.
 
 ### Introducción
+- Videojuegos en la época moderna
 - Aprendizaje reforzado
   - Breve explicación
 - Unity

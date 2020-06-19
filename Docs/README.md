@@ -10,3 +10,5 @@ Lo que se quiere lograr en este proyecto:
 - El entrenamiento del agente Enemigo
   - Lograr que el agente busque un objetivo y le haga daño
   - Lograr que el agente huya del objetivo en caso de que se encuentre en baja vida
+
+## Creación del juego

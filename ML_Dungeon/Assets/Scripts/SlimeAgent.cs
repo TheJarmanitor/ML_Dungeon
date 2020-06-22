@@ -5,16 +5,12 @@ using Unity.MLAgents.Sensors;
 
 public class SlimeAgent : Agent
 {
-
     SlimeMovement slimeMovement;
     Combat combat;
     HealthSystem health;
     HealthSystem enemyhealth;
 
     public GameObject target;
-
-
-
 
     public override void Initialize()
     {
@@ -30,10 +26,13 @@ public class SlimeAgent : Agent
         enemyhealth.currentHealth=health.maxHealth;
 
     }
+
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(target.transform.localPosition);
         sensor.AddObservation(this.transform.localPosition);
+        sensor.AddObservation(health.currentHealth);
+        sensor.AddObservation(enemyhealth.currentHealth);
     }
 
     public override void OnActionReceived(float[] vectorAction)
@@ -45,11 +44,11 @@ public class SlimeAgent : Agent
         slimeMovement.Move();
         combat.Attack();
     }
+
     public override void Heuristic(float[] actionsOut)
     {
         actionsOut[0] = Input.GetAxis("Horizontal");
         actionsOut[1] = Input.GetAxis("Vertical");
         actionsOut[2]=Input.GetKey("space")? 1f:0f;
-
     }
 }

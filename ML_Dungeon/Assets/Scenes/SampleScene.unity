@@ -2542,6 +2542,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1398489192}
+    - target: {fileID: 4287398735354786226, guid: ef1abc96b25ac1147bdef95bfd73e224,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4287398735354786231, guid: ef1abc96b25ac1147bdef95bfd73e224,
         type: 3}
       propertyPath: m_LocalPosition.x

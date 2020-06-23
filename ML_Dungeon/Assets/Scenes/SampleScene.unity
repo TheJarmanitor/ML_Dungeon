@@ -2758,6 +2758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  healStart: 5
+  healingRate: 5
   healthBar: {fileID: 255735032}
 --- !u!1 &1415901305
 GameObject:
@@ -2968,12 +2970,12 @@ PrefabInstance:
     - target: {fileID: 4287398735354786231, guid: ef1abc96b25ac1147bdef95bfd73e224,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 4287398735354786231, guid: ef1abc96b25ac1147bdef95bfd73e224,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.52
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4287398735354786231, guid: ef1abc96b25ac1147bdef95bfd73e224,
         type: 3}

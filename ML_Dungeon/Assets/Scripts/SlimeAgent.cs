@@ -43,6 +43,7 @@ public class SlimeAgent : Agent
 
         slimeMovement.Move();
         combat.Attack();
+        enemyhealth.Heal();
     }
 
     public override void Heuristic(float[] actionsOut)

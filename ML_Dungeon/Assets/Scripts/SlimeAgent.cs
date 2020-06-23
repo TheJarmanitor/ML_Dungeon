@@ -22,8 +22,8 @@ public class SlimeAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        health.currentHealth=health.maxHealth;
-        enemyhealth.currentHealth=health.maxHealth;
+        health.ResetHealth();
+        enemyhealth.ResetHealth();
 
     }
 

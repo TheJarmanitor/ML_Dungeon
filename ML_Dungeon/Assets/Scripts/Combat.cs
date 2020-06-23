@@ -12,21 +12,25 @@ public class Combat : MonoBehaviour
 
     public float attackDamage=20f;
     public float attackRange=0.5f;
+    public float attackRate=2f;
+    float nextAttackTime=0f;
 
     public bool isAttacking;
 
 
-   public void Attack()
+    public void Attack()
     {
-        if(isAttacking)
+        if(Time.time>=nextAttackTime)
         {
-            anim.SetTrigger("Attack");
-
-            Collider2D[] hitEnemies=Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-            foreach(Collider2D enemy in hitEnemies)
+            if(isAttacking)
             {
-                enemy.GetComponent<HealthSystem>().TakeDamage(attackDamage);
+                anim.SetTrigger("Attack");
+                Collider2D[] hitEnemies=Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+                foreach(Collider2D enemy in hitEnemies)
+                {
+                    enemy.GetComponent<HealthSystem>().TakeDamage(attackDamage);
+                }
+                nextAttackTime=Time.time+1f/attackRate;
             }
         }
     }

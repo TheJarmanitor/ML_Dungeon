@@ -25,12 +25,18 @@ public class SlimeAgent : Agent
         health.ResetHealth();
         enemyhealth.ResetHealth();
 
+        this.transform.localPosition= new Vector3(Random.value*6-3,
+                                                  Random.value*6-3,
+                                                  0f);
+        target.transform.localPosition= new Vector3(Random.value*6-3,
+                                                    Random.value*6-3,
+                                                    0f);
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(target.transform.localPosition);
         sensor.AddObservation(this.transform.localPosition);
+        sensor.AddObservation(target.transform.localPosition);
         sensor.AddObservation(health.currentHealth);
         sensor.AddObservation(enemyhealth.currentHealth);
     }
@@ -44,6 +50,20 @@ public class SlimeAgent : Agent
         slimeMovement.Move();
         combat.Attack();
         enemyhealth.Heal();
+
+        float distanceToTarget = Vector3.Distance(this.transform.localPosition,
+                                                  target.transform.localPosition);
+
+        if(enemyhealth.currentHealth<=0)
+        {
+            SetReward(1.0f);
+            EndEpisode();
+        }
+        if(health.currentHealth<=0)
+        {
+            SetReward(-0.01f);
+            EndEpisode();
+        }
     }
 
     public override void Heuristic(float[] actionsOut)

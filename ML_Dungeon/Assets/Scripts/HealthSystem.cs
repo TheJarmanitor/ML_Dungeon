@@ -12,10 +12,6 @@ public class HealthSystem : MonoBehaviour
     bool IsRegen=false;
     bool damaged=false;
 
-    Coroutine coroutine;
-
-
-
     public HealthBar healthBar;
 
     public void ResetHealth()

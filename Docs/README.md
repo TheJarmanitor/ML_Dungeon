@@ -13,7 +13,7 @@ La intención de este proyecto es el conseguir un entendimiento de tanto el Soft
 
 
 ### IA en los videojuegos
-- El desarrollo de la inteligencia artificial en los videojuegos existe casi desde la incepción de Este.
+- El desarrollo de la inteligencia artificial en los videojuegos existe casi desde el nacimiento de Este.
 
 - Hay exponentes modernos del buen uso de la inteligencia artifical, como el mal uso
 

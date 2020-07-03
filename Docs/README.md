@@ -84,16 +84,78 @@ Lo que se quiere lograr en este proyecto:
   ![](Media/slime_anim.png)
   
   - Sistema de Combate y movimiento
+  
+  ![](Media/target_prefab.png)
+  ![](Media/slime_prefab.png)
 
 ### Implementación de Redes Neuronales
+#### Variables extra utilizadas
+  - Distancia entre objetos
+  - grabador de vida actual
+  - **Peligro**
 #### Estados de aprendizaje:
   - Initialize
+    - función que se llama al inicio de la escena/nivel
+    - Se usa aquí para llamar a los scripts de Movimiento, combate y los sistemas de vida de cada elemento
   - Episode Begin
+    - función que se llama al inicio de cada episodio
+    - Reposicionamos a los objetos 
+    - Reiniciamos la vida de los objetos, la distancia y el grabadaror de vida
   - Collect Observations
+    - Función que obtiene y guarda los datos para la red neuronal.
+    - Se toma en cuenta la posición tridimensional de cada objeto, más si se está en peligro o no
   - Action Received
-    - Refuerzos Positivos
-    - Refuerzos Negativos
+    - Las acciones que el agente va a llevar a cabo y las recompensas que se van a dar
+    - Movimiento del agente y ataque del agente
+    - Si no está en peligro:
+      - Si acorta distancia entre este y el objetivo: Recompensa pequeña
+      - Si alarga distancia: Castigo pequeño
+      - Si reduce la vida del objetivo: Recompensa
+    - Si está en peligro:
+      - Si alarga las distancias entre este y el objetivo: Recompensa pequeña
+      - Si acorta distancia: Castigo pequeño
+      - Si ataca: Castigo pequeño
+      - Si Se aleja una cantidad en específico: Recompensa
   - Heuristic
+    - Función para que el programador controle el agente. 
+    - Necesario para detección de bugs
+    - Control de movimiento y ataque
+#### proceso de aprendizaje
+![](Media/Dungeon_train.mp4)
+
+```sh
+behaviors:
+    Slime:
+        trainer_type: ppo
+        hyperparameters:
+          batch_size: 128
+          buffer_size: 2048
+          learning_rate: 0.0003
+          beta: 0.01
+          epsilon: 0.2
+          lambd: 0.95
+          num_epoch: 4
+          learning_rate_schedule: linear
+        network_settings:
+          normalize: false
+          hidden_units: 128
+          num_layers: 2
+          vis_encode_type: simple
+        reward_signals:
+          extrinsic:
+            gamma: 0.99
+            strength: 1.0
+          curiosity:
+            gamma: 0.99
+            strength: 0.02
+            encoding_size: 256
+            learning_rate: 0.0003
+        keep_checkpoints: 5
+        max_steps: 1000000
+        time_horizon: 128
+        summary_freq: 50000
+        threaded: true
+```
   
 
 ## Evaluación

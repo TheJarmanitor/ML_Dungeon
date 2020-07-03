@@ -40,6 +40,8 @@ La intención de este proyecto es el conseguir un entendimiento de tanto el Soft
 #### Exploración por curiosidad
 
 
+![](Media/montezuma.png)
+
 - Es posible hacer aprendizaje reforzado incluso sin que el programador asigne recompensas extrinsicas
 - Se aplica una segunda red neuronal que hace predicciones con base en lo hecho por el mismo agente.
 

@@ -36,8 +36,8 @@ public class SlimeAgent : Agent
         distanceRecorder=Mathf.Infinity;
         combat.isAttacking=false;
 
-        this.transform.localPosition= new Vector3(0f,
-                                                  0f,
+        this.transform.localPosition= new Vector3(Random.value*6-3f,
+                                                  Random.value*6-3f,
                                                   0f);
         target.transform.localPosition= new Vector3(Random.value*6-3f,
                                                     Random.value*6-3f,
@@ -70,7 +70,7 @@ public class SlimeAgent : Agent
             {
                 if(enemyhealth.currentHealth<healthRecorder)
                 {
-                    SetReward(0.15f);
+                    SetReward(0.1f);
                     healthRecorder=enemyhealth.currentHealth;
                 }
             }
@@ -95,20 +95,20 @@ public class SlimeAgent : Agent
             }
             else
             {
-                if(distanceToTarget>=distanceRecorder)
+                if(distanceToTarget>distanceRecorder)
                 {
-                    SetReward(0.01f);
+                    SetReward(0.02f);
                     distanceRecorder=distanceToTarget;
                 }
                 else
                 {
                     SetReward(-0.001f);
                 }
-                if(distanceToTarget>=15f)
-                {
-                    SetReward(0.25f);
-                    EndEpisode();
-                }
+                // if(distanceToTarget>=15f)
+                // {
+                //     SetReward(0.25f);
+                //     EndEpisode();
+                // }
             }
 
         }

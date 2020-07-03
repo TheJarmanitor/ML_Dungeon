@@ -1,14 +1,23 @@
 # Documentación ML dungeon
+**Tabla de contenido**
+- [Introducción y Metas](#introducción-y-metas)
+  - [IA en los videojuegos](#ia-en-los-videojuegos)
+  - [Aprendizaje Reforzado](#aprendizaje-reforzado)
+  - [Unity](#unity)
+  - [Metas](#metas)
+- [Creación del juego](#creación-del-juego)
+  - [Base del juego](#base-del-juego)
+  - [Implementación de Redes Neuronales](#implementación-de-redes-neuronales)
 ## Introducción y Metas
 La intención de este proyecto es el conseguir un entendimiento de tanto el Software de desarrollo de videojuegos "Unity" y de su paquete de Agentes de aprendizaje automátizado "ML Agents", el cuál es potenciado por Python y Tensorflow. Esto con el fín de expandir este uso a productos tanto como en el campo de los videojuegos, como la simulación.
 
-### Introducción
-- Videojuegos en la época moderna
-- Aprendizaje reforzado
-  - Breve explicación
-- Unity
-  - Introducción al software
-  - Introducción al paquete ML Agents
+
+### IA en los videojuegos
+### Aprendizaje reforzado
+  #### Breve explicación
+### Unity
+  #### Introducción al software
+  #### Introducción al paquete ML Agents
 
 ### Metas
 Lo que se quiere lograr en este proyecto:
@@ -40,7 +49,7 @@ Lo que se quiere lograr en este proyecto:
     - Refuerzos Positivos
     - Refuerzos Negativos
   - Heuristic
-- Hiperparámetros
+  
 
 ## Evaluación
 - Demostración

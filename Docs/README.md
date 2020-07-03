@@ -14,15 +14,49 @@ La intención de este proyecto es el conseguir un entendimiento de tanto el Soft
 
 ### IA en los videojuegos
 - El desarrollo de la inteligencia artificial en los videojuegos existe casi desde la incepción de Este.
-- Hay exponentes modernos del buen uso de la inteligencia artifical, como malos
 
-![](ML_Dungeon/Docs/Media/grunt.gif)
+- Hay exponentes modernos del buen uso de la inteligencia artifical, como el mal uso
+
+![](Media/grunt.gif)
+- cuando se usa correctamente, puede ayudar a que la experiencia de juego sea más memorable
+![](Media/Xeno.gif)
+- También puede contribuir a la mala acogida de un título
+![](Media/ACM.gif)
+- O puede ser el resultado de métodos no muy bien percibidos(Cheating-AI)
+![](Media/Akuma.gif)
+![](Media/StarCraft.gif)
+
+- El estándar del la inteligencia artifical ahora es el que todo Sea "Hard coded".
+![](Media/Crunch.png)
+
+- Con las tecnicas mostradas aquí, es posible conseguir Inteligencia artificial con buenas respuestas, y con menos esfuerzo por parte del programador.
+
+
 ### Aprendizaje reforzado
-  #### Breve explicación
-### Unity
-  #### Introducción al software
-  #### Introducción al paquete ML Agents
+#### Breve explicación
+- Al agente se le asigna un sistema de recompensas y es trabajo de este experimentar y maximimizar sus recompensas.
+- El aprendizaje reforzado tiene un talón de aquiles: **El problema de recompensas escasas/sparce rewards** 
+![](Media/Sparce.png)
+#### Exploración por curiosidad
 
+![](Media/montezuma.jpg)
+
+- Es posible hacer aprendizaje reforzado incluso sin que el programador asigne recompensas extrinsicas
+- Se aplica una segunda red neuronal que hace predicciones con base en lo hecho por el mismo agente.
+
+### Unity
+#### Introducción al software
+- Motor de videojuegos sacado en 2005 exclusivo para Machintosh. ahora disponible de múltiples plataformas
+- Altamente usado tanto por desarrolladores independientes, empresas pequeñas y grandes compañias
+- Tiene versión gratis y distintos modelos de suscripción
+![](Media/Unity.png)
+
+#### Introducción al paquete ML Agents
+- **Unity Machine Learning Agents Toolkit**
+- En desarrollo desde 2017. Salida oficial en abril del 2020
+- Herramienta para el desarrollo de agentes inteligentes para videojuegos y simulación
+- Basado en tensorflow
+- Usa archivos YAML para la creación de las redes
 ### Metas
 Lo que se quiere lograr en este proyecto:
 - Diseñar un terreno de aprendizaje
@@ -36,17 +70,24 @@ Lo que se quiere lograr en este proyecto:
 ## Creación del juego
 
 ### Base del Juego
-- Terreno de entrenamiento:
+#### Terreno de entrenamiento:
   - Uso de Baldosas para armar el campo
+  ![](Media/baldosas.png)
   - Implementación de múltiples capas para hacer límites de juego
-- Creación del agente:
+  ![](Media/walls.png)
+  ![](Media/tilecollider.png)
+#### Creación del agente:
   - Uso de animación en sprites
-  - Sistema de Combate
-    - Barra de Vida
-    - Daño
+  
+  <img src="Media/SlimeA.png" width="1024" height="64">
+  
+  ![](Media/slime_anim.png)
+  
+  - Sistema de Combate y movimiento
 
 ### Implementación de Redes Neuronales
-- Estados de aprendizaje:
+#### Estados de aprendizaje:
+  - Initialize
   - Episode Begin
   - Collect Observations
   - Action Received
@@ -57,4 +98,3 @@ Lo que se quiere lograr en este proyecto:
 
 ## Evaluación
 - Demostración
-- Gráficas de Tensorboard

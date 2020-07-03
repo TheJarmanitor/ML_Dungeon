@@ -56,10 +56,13 @@ public class SlimeAgent : Agent
         slimeMovement.movement.x=vectorAction[0];
         slimeMovement.movement.y=vectorAction[1];
         combat.isAttacking=vectorAction[2]>0f;
+        health.Heal();
+        enemyhealth.Heal();
         if(health.currentHealth<=30)
             danger=true;
         else
             danger=false;
+
 
         slimeMovement.Move();
         combat.Attack();
@@ -104,11 +107,10 @@ public class SlimeAgent : Agent
                 {
                     SetReward(-0.001f);
                 }
-                // if(distanceToTarget>=15f)
-                // {
-                //     SetReward(0.25f);
-                //     EndEpisode();
-                // }
+                if(distanceToTarget>=30f)
+                {
+                    EndEpisode();
+                }
             }
 
         }

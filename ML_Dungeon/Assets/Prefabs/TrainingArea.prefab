@@ -352,7 +352,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healStart: 5
-  healingRate: 5
+  healingRate: 30
   healthBar: {fileID: 8222222759862806012}
 --- !u!114 &8222222758720065899
 MonoBehaviour:
@@ -2901,7 +2901,7 @@ PrefabInstance:
     - target: {fileID: 4287398735354786225, guid: ef1abc96b25ac1147bdef95bfd73e224,
         type: 3}
       propertyPath: MaxStep
-      value: 5000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4287398735354786226, guid: ef1abc96b25ac1147bdef95bfd73e224,
         type: 3}
@@ -3004,6 +3004,16 @@ PrefabInstance:
         type: 3}
       propertyPath: attackRange
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297418661349272510, guid: ef1abc96b25ac1147bdef95bfd73e224,
+        type: 3}
+      propertyPath: healStart
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297418661349272510, guid: ef1abc96b25ac1147bdef95bfd73e224,
+        type: 3}
+      propertyPath: healingRate
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef1abc96b25ac1147bdef95bfd73e224, type: 3}

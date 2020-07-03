@@ -121,7 +121,7 @@ Lo que se quiere lograr en este proyecto:
     - Necesario para detección de bugs
     - Control de movimiento y ataque
 #### proceso de aprendizaje
-![](Media/Dungeon_train.mp4)
+![](Media/Dungeon_train.gif)
 
 ```sh
 behaviors:
@@ -159,4 +159,4 @@ behaviors:
   
 
 ## Evaluación
-- Demostración
+- [Demostración](https://youtu.be/I7xTxLGFerk)

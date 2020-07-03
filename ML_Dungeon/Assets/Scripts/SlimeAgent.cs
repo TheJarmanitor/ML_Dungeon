@@ -12,6 +12,14 @@ public class SlimeAgent : Agent
 
     public GameObject target;
 
+    public float distanceToTarget;
+    float healthRecorder;
+    float distanceRecorder;
+
+    bool danger=false;
+
+
+
     public override void Initialize()
     {
         slimeMovement=GetComponent<SlimeMovement>();
@@ -24,12 +32,15 @@ public class SlimeAgent : Agent
     {
         health.ResetHealth();
         enemyhealth.ResetHealth();
+        healthRecorder=enemyhealth.maxHealth;
+        distanceRecorder=Mathf.Infinity;
+        combat.isAttacking=false;
 
-        this.transform.localPosition= new Vector3(Random.value*6-3,
-                                                  Random.value*6-3,
+        this.transform.localPosition= new Vector3(0f,
+                                                  0f,
                                                   0f);
-        target.transform.localPosition= new Vector3(Random.value*6-3,
-                                                    Random.value*6-3,
+        target.transform.localPosition= new Vector3(Random.value*6-3f,
+                                                    Random.value*6-3f,
                                                     0f);
     }
 
@@ -37,8 +48,7 @@ public class SlimeAgent : Agent
     {
         sensor.AddObservation(this.transform.localPosition);
         sensor.AddObservation(target.transform.localPosition);
-        sensor.AddObservation(health.currentHealth);
-        sensor.AddObservation(enemyhealth.currentHealth);
+        sensor.AddObservation(danger ? 1f: 0f);
     }
 
     public override void OnActionReceived(float[] vectorAction)
@@ -46,22 +56,64 @@ public class SlimeAgent : Agent
         slimeMovement.movement.x=vectorAction[0];
         slimeMovement.movement.y=vectorAction[1];
         combat.isAttacking=vectorAction[2]>0f;
+        if(health.currentHealth<=30)
+            danger=true;
+        else
+            danger=false;
 
         slimeMovement.Move();
         combat.Attack();
-        enemyhealth.Heal();
-
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition,
-                                                  target.transform.localPosition);
-
-        if(enemyhealth.currentHealth<=0)
+        distanceToTarget = (target.transform.position - combat.attackPoint.transform.position).sqrMagnitude;
+        if(!danger)
         {
-            SetReward(1.0f);
-            EndEpisode();
+            if(combat.isAttacking)
+            {
+                if(enemyhealth.currentHealth<healthRecorder)
+                {
+                    SetReward(0.15f);
+                    healthRecorder=enemyhealth.currentHealth;
+                }
+            }
+            else
+            {
+                if(distanceToTarget<distanceRecorder)
+                {
+                    SetReward(0.01f);
+                    distanceRecorder=distanceToTarget;
+                }
+                else
+                {
+                    SetReward(-0.001f);
+                }
+            }
         }
-        if(health.currentHealth<=0)
+        else
         {
-            SetReward(-0.01f);
+            if(combat.isAttacking)
+            {
+                SetReward(-0.005f);
+            }
+            else
+            {
+                if(distanceToTarget>=distanceRecorder)
+                {
+                    SetReward(0.01f);
+                    distanceRecorder=distanceToTarget;
+                }
+                else
+                {
+                    SetReward(-0.001f);
+                }
+                if(distanceToTarget>=15f)
+                {
+                    SetReward(0.25f);
+                    EndEpisode();
+                }
+            }
+
+        }
+        if(enemyhealth.currentHealth<=0f)
+        {
             EndEpisode();
         }
     }

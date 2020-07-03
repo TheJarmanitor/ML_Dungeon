@@ -6,22 +6,22 @@ public class TargetController : MonoBehaviour
 {
     public Combat combat;
     public HealthSystem health;
+    public bool counterAttack=false;
 
     void Update()
     {
-        if(health.currentHealth<=30)
+        if(health.currentHealth==health.maxHealth)
         {
-            combat.isAttacking=true;
-            StartCoroutine("Counterattack");
+            counterAttack=false;
         }
-    }
-
-    IEnumerator Counterattack()
-    {
-        while(health.currentHealth<75)
+        if(health.currentHealth<=50)
         {
-            combat.Attack();
-            yield return new WaitForSeconds(2f);
+            if(counterAttack==false)
+            {
+                combat.isAttacking=true;
+                combat.Attack();
+                counterAttack=true;
+            }
         }
     }
 }

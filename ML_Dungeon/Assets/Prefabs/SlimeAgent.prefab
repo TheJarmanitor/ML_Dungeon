@@ -572,8 +572,9 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 50000
+  MaxStep: 10000
   target: {fileID: 0}
+  distanceToTarget: 0
 --- !u!114 &4287398735354786226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,7 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecisionPeriod: 5
+  DecisionPeriod: 3
   TakeActionsBetweenDecisions: 1
 --- !u!114 &5297418661349272510
 MonoBehaviour:
@@ -626,6 +627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  healStart: 5
+  healingRate: 2
   healthBar: {fileID: 628971551}
 --- !u!114 &4998250902804580395
 MonoBehaviour:

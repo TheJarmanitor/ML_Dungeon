@@ -157,7 +157,8 @@ behaviors:
         summary_freq: 50000
         threaded: true
 ```
-  
+ ![](Graphs/Environment_Cumulative_Reward_(1).svg)
+ ![](Graphs/Losses_Value_Loss.svg)
 
 ## Evaluación
 - [Demostración](https://youtu.be/I7xTxLGFerk)

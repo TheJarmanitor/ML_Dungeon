@@ -13,7 +13,7 @@ La intención de este proyecto es el conseguir un entendimiento de tanto el Soft
 
 
 ### IA en los videojuegos
-- El desarrollo de la inteligencia artificial en los videojuegos existe casi desde la incepción de Este.
+- El desarrollo de la inteligencia artificial en los videojuegos existe casi desde el nacimiento de este.
 
 - Hay exponentes modernos del buen uso de la inteligencia artifical, como el mal uso
 
@@ -42,7 +42,7 @@ La intención de este proyecto es el conseguir un entendimiento de tanto el Soft
 
 ![](Media/montezuma.png)
 
-- Es posible hacer aprendizaje reforzado incluso sin que el programador asigne recompensas extrinsicas
+- Es posible hacer aprendizaje reforzado incluso sin que el programador asigne recompensas extrinsecas
 - Se aplica una segunda red neuronal que hace predicciones con base en lo hecho por el mismo agente.
 
 ### Unity
@@ -157,7 +157,8 @@ behaviors:
         summary_freq: 50000
         threaded: true
 ```
-  
+ ![](Graphs/Environment_Cumulative_Reward_(1).svg)
+ ![](Graphs/Losses_Value_Loss.svg)
 
 ## Evaluación
 - [Demostración](https://youtu.be/I7xTxLGFerk)
